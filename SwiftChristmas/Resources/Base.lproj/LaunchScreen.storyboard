@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="christmaspic" translatesAutoresizingMaskIntoConstraints="NO" id="30h-vx-BP3">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="870"/>
+                                <rect key="frame" x="-603.66666666666663" y="-174" width="1600.3333333333333" height="1200"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Happy Christmas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMb-V9-DxA">
-                                <rect key="frame" x="16" y="795.66666666666663" width="361" height="31.333333333333371"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <rect key="frame" x="34.666666666666657" y="399.66666666666669" width="324" height="53"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -29,13 +29,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="TMb-V9-DxA" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="CGA-rg-nCo"/>
-                            <constraint firstItem="TMb-V9-DxA" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="XEL-5w-JXN"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="30h-vx-BP3" secondAttribute="bottom" constant="-52" id="c6e-bY-cEk"/>
-                            <constraint firstItem="TMb-V9-DxA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="736.66666666666652" id="eX5-0D-6gG"/>
-                            <constraint firstItem="30h-vx-BP3" firstAttribute="centerX" secondItem="TMb-V9-DxA" secondAttribute="centerX" id="jhP-Ve-UVN"/>
-                            <constraint firstItem="30h-vx-BP3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rvj-Zn-1F1"/>
-                            <constraint firstItem="30h-vx-BP3" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="-59" id="tQI-MU-hUQ"/>
+                            <constraint firstItem="TMb-V9-DxA" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="8bx-jR-GJl"/>
+                            <constraint firstItem="TMb-V9-DxA" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Dat-ua-hzf"/>
+                            <constraint firstItem="30h-vx-BP3" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Z3g-wb-6UX"/>
+                            <constraint firstItem="30h-vx-BP3" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="zzy-z5-ooQ"/>
                         </constraints>
                     </view>
                 </viewController>
